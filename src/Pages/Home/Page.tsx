@@ -1,4 +1,4 @@
-import { lazy } from 'react';
+import { lazy, useState } from 'react';
 
 const Works = lazy(() => import('../../Components/Home/Works'));
 const HeroSection = lazy(() => import('../../Components/Home/HeroSection'));
@@ -10,10 +10,11 @@ const Contact = lazy(() => import('../../Components/Home/Contact'));
 
 
 const Page = () => {
+   const [globalProjectTypeId , setGlobalProjectTypeId] = useState();
   return (
     <div className='Home_Page'>
       <HeroSection/>
-      <Works/>
+      <Works globalProjectTypeId={globalProjectTypeId} setGlobalProjectTypeId={setGlobalProjectTypeId}/>
       <PowerfulFeatures/>
       <AboutUs/>
       <OurHow/>

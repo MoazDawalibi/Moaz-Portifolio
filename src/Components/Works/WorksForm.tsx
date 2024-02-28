@@ -8,28 +8,11 @@ import { LoadingButton } from '../Karimalden/LoadingButton';
 import { useTranslation } from 'react-i18next';
 
 
-const WorksForm = () => {
+const WorksForm = ({globalProjectTypeId,setGlobalProjectTypeId}:any) => {
   const {t} = useTranslation();
-  const [selectedOption, setSelectedOption] = useState();
-  const [storedID, setStoredID ] = useState();
-
-
   const handleFormSubmit = (values:any) => {
-    setSelectedOption(values?.selcet);
-    // console.log(selectedOption);
-    
-    // localStorage.setItem("SelcetedID", values?.select);
-    // console.log(values?.select,"ansn");
-    // console.log(localStorage.getItem("SelcetedID"),"from storage");
-    
+
   };
-
-
-  useEffect(()=>{
-    // setSelectedOption(Moaz)
-    // const storedID = selectedOption 
-
-  },[])
 
   return (
     <div className='WorksForm'>
@@ -40,16 +23,9 @@ const WorksForm = () => {
         >
           {({}) => (
             <Form>
-              <KarimField  name='select' option={SelectedOptions || []} type='Select' placeholder='selcet' 
-              onChange={(e)=>setSelectedOption(e)}
+              <KarimField  name='Select' option={SelectedOptions || []} type='Select' placeholder='Selcet' 
+              onChange={(e)=>setGlobalProjectTypeId(e)}
               />
-                {/* <LoadingButton
-                  type="submit"
-                  color="primary"
-                  // isLoading={}
-                >
-                  {t("Add")}
-                </LoadingButton> */}
             </Form>
           )}
         </Formik>
