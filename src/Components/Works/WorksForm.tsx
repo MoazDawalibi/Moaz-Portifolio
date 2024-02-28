@@ -8,8 +8,8 @@ import { LoadingButton } from '../Karimalden/LoadingButton';
 import { useTranslation } from 'react-i18next';
 
 
-const WorksForm = ({globalProjectTypeId,setGlobalProjectTypeId}:any) => {
-  const {t} = useTranslation();
+const WorksForm = ({globalProjectTypeId,setGlobalProjectTypeId,setIsLoading}:any) => {
+  const {t} = useTranslation(); 
   const handleFormSubmit = (values:any) => {
 
   };
@@ -24,7 +24,9 @@ const WorksForm = ({globalProjectTypeId,setGlobalProjectTypeId}:any) => {
           {({}) => (
             <Form>
               <KarimField  name='Select' option={SelectedOptions || []} type='Select' placeholder='Selcet' 
-              onChange={(e)=>setGlobalProjectTypeId(e)}
+              onChange={(e)=>{return(
+                setGlobalProjectTypeId(e)
+              )}}
               />
             </Form>
           )}

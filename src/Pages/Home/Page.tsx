@@ -10,7 +10,7 @@ const Contact = lazy(() => import('../../Components/Home/Contact'));
 
 
 const Page = () => {
-   const [globalProjectTypeId , setGlobalProjectTypeId] = useState();
+   const [globalProjectTypeId , setGlobalProjectTypeId] = useState(1);
   return (
     <div className='Home_Page'>
       <HeroSection/>
