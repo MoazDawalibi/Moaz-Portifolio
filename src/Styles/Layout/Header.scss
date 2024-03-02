@@ -17,15 +17,13 @@
     transition: .3s ease-in-out;
 
     .Logo {
-
-        width: 200px;
-        height: 40px;
-        min-width: 12vw;
-        min-height: 3vw;
-        background-image: url('../../assets/img/KarimLogo.svg');
-        background-repeat: no-repeat;
-        background-size: contain
-        
+        width: 90px;
+        height: 70px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    .LogoBlack{
+        display: none;
     }
 
     nav {
@@ -123,13 +121,14 @@
     background-color: var(--white) !important;
        
     .Logo {
-
-        width: 200px;
-        height: 40px;
-        background-image: url('../../assets/img/KarimLogoDark.svg');
-        background-repeat: no-repeat;
-        background-size: contain
-        
+        display: none;
+    }
+    .LogoBlack{
+        display: block;
+        width: 90px;
+        height: 70px;
+        border-radius: 50%;
+        object-fit: cover;
     }
     
         nav {

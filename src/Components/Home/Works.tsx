@@ -29,7 +29,7 @@ const Works = ({globalProjectTypeId,setGlobalProjectTypeId}:any) => {
         <h1>{t("Works")}</h1>
         <div className='select_works'>
             <div className='select_project'>
-                <h3>{t("Select Project type:")}</h3>
+                <h3>{t("Select Project type")}:</h3>
                 <WorksForm globalProjectTypeId={globalProjectTypeId} setGlobalProjectTypeId={setGlobalProjectTypeId} />
             </div>
             
@@ -41,12 +41,12 @@ const Works = ({globalProjectTypeId,setGlobalProjectTypeId}:any) => {
                         {filteredLinks.map((project:any, index:number) => {
                            return (
                                 <div className='oneLink' key={index}>
-                                    <h4>Name: <span>{project?.name}</span></h4>
-                                    {project?.link && <Link className='Link' to={project?.link}>Link: <span>{project?.linkName ? project?.linkName :project?.link}</span></Link> }
-                                    <p>Project Images:</p>
+                                    <h4>{t("Name")}: <span>{project?.name}</span></h4>
+                                    {project?.link && <Link className='Link' to={project?.link}>{t("Link")}: <span>{project?.linkName ? project?.linkName :project?.link}</span></Link> }
+                                    <p>{t("Project Images")}:</p>
                                     <div className='images'>
                                         <img style={{background:"black"}} src={project.img}/>
-                                        <img style={{background:"black"}} src={project.img}/>
+                                        <img className='second' style={{background:"black"}} src={project.img}/>
                                         <img className='third' style={{background:"black"}} src={project.img}/>
                                     </div>
                                 </div>

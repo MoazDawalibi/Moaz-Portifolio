@@ -12,6 +12,15 @@ html,body {
 
 }
 
+.cvButton{
+    width: 12%;
+    border: 1px solid #000;
+    border-radius: 10px;
+    color: var(--primary);
+    font-weight: bold;
+    padding: 5px;  
+
+}
 *{
     padding: 0;
     margin: 0;

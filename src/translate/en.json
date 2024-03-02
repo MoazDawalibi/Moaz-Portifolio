@@ -33,7 +33,7 @@
     "name": "KARIM ALDEEN",
     "role": "FRONT END DEVELOPER",
     "description": "Work As FrontEnd Developer",
-    "experience": "With Over one year of Experience ",
+    "experience": "With Over two year of Experience ",
     "personalDescription": "self-motivated, ambitious, and hard Worker Hoping to Make my interpersonal Skill to Achieve Goals of Company",
     "askedQuestions": "Asked Questions",
     "contactMe": "Contact Me"
@@ -49,15 +49,15 @@
       "github": "GitHub",
       "seo": "SEO",
       "figma": "Figma",
-      "adobe": "Adobe"
+      "dp": "Design Pattern"
     }
   },
   "aboutUs": {
     "educationTitle": "My EDUCATION",
-    "educationDescription": "After three years at my first university, I had to take a year off due to illness. Following my recovery, I chose to begin anew at a different university. Excited for a fresh start, I'm optimistic about the opportunities this change brings to my academic journey.",
+    "educationDescription": " ",
     "syrianVirtualUniversity": {
-      "title": "Syrian Virtual University",
-      "content": "Embarked on the journey of studying Information Technology (BAIT) at the Syrian Virtual University. The first year curriculum provided a foundational understanding of various aspects of IT."
+      "title": "Syrian Private University (2022- present)",
+      "content": "Embarked on the journey of studying Information Technology (BAIT) at the Syrian Private University. The first year curriculum provided a foundational understanding of various aspects of IT."
     },
     "metaCourseAdvancedReact": {
       "title": "Meta Course Advanced React",
@@ -85,7 +85,7 @@
     },
     "educationalBackground": {
       "label": "What is your educational background?",
-      "content": "Education: Information Technology (BAIT) at Syrian Virtual University, Training / Courses: 1.Meta Advanced React, 2. Meta Front-End Developer Professional"
+      "content": "Education: Information Technology (BAIT) at Syrian Private University, Training / Courses: 1.Meta Advanced React, 2. Meta Front-End Developer Professional"
     },
     "remoteWork": {
       "label": "Are you open to remote work",
@@ -94,24 +94,7 @@
     "projects": {
       "label": "Can you share details about some of the projects you worked on as a Front-End Developer?",
       "content": [
-        "(2021 - 10/2023): Developed a comprehensive Full Dashboard comprising over 40 pages for an E-commerce system.",
-        "Implemented advanced user interface pages for efficient data display and editing.",
-        "Created a Vendor Dashboard for streamlined vendor management.",
-        "Designed and built a Landing Page with complex animations to enhance user engagement.",
-        "Successfully deployed the project to GitLab and a Linux server.",
-        "Freelancer (2020 - Present):",
-        "Qtrend:",
-        "Built a Website, E-commerce platform, and Dashboard for a software company.",
-        "Optimum:",
-        "Developed a Website and Dashboard for an oil company.",
-        "Nokbeh Alrbia:",
-        "Worked on the development of a mid-scale E-commerce platform using ReactJS.",
-        "Completed the design and creation of over 5 logos.",
-        "Crafted two Personal Portfolios showcasing diverse skills and projects.",
-        "(2020 - 03/2021):",
-        "Constructed a Dashboard for a large Delivery App.",
-        "Developed two websites, including a Landing Page and Customer Interface.",
-        "Successfully deployed the project to cPanel for seamless accessibility."
+        "You can take a look at my cv by clicking on this button and see everything."
       ]
       
     }
@@ -132,10 +115,10 @@
     }
   , "footer": {
     "title": "Mohammed Karim Alden",
-    "description": "Work As FrontEnd Developer With Over one Year of Experience, self-motivated, ambitious, and hard Worker Hoping to Make my interpersonal Skill to Achieve Goals of Company",
+    "description": "Work As FrontEnd Developer With Over two Year of Experience, self-motivated, ambitious, and hard Worker Hoping to Make my interpersonal Skill to Achieve Goals of Company",
     "contact": {
       "title": "Contact Me",
-      "phone": "Phone: 0958261912",
+      "phone": "Phone: +963958261912",
       "email": "mohammedkarimalden@gmail.com"
     },
     "rightsReserved": "@2023 All Right Reserved By MoazDawalibi",

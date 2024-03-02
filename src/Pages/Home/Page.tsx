@@ -17,7 +17,7 @@ const Page = () => {
       <Works globalProjectTypeId={globalProjectTypeId} setGlobalProjectTypeId={setGlobalProjectTypeId}/>
       <PowerfulFeatures/>
       <AboutUs/>
-      <OurHow/>
+      {/* <OurHow/> */}
       <Questions/>
       <Contact/>
     </div>

@@ -48,7 +48,7 @@ scroll-behavior: smooth;
                     h4,.Link,p{
                         font-weight: 900;
                         font-size: 20px;
-                        color: rgb(0, 0, 0);
+                        color: var(--text);
                         span{
                             font-weight: 600 !important;
                             font-size: 15px;
@@ -60,8 +60,11 @@ scroll-behavior: smooth;
                         display: flex;justify-content: space-between;
                         img{
                             border-radius: 10px;
-                            width: 30%;
+                            width: 100%;
                             min-height: 25vh;
+                        }
+                        .second , .third{
+                            display: none;
                         }
                     }
                 }
@@ -296,6 +299,10 @@ scroll-behavior: smooth;
                 color: var(--text);
 
                 .Feature {
+                    h2{
+                        color: var(--primary);
+                        font-weight: bold;
+                    }
                     &:nth-child(1){
                         overflow: hidden;
                         position: relative;
@@ -692,6 +699,7 @@ scroll-behavior: smooth;
                     display: flex; justify-content: space-between;
                     flex-wrap: wrap;
                     .oneLink{
+                        width: 50%;
                         h4,.Link,p{
                             display: flex; flex-direction: column;justify-content: center;align-items: center;
                             font-size: 15px;
@@ -701,11 +709,8 @@ scroll-behavior: smooth;
                         }
                         .images{
                             img{
-                                width: 47% !important;
-                                min-height: 15vh !important;
-                            }
-                            .third{
-                                display: none;
+                                width: 95% !important;
+                                // min-height: 15vh !important;
                             }
                         }
                     }
@@ -1143,67 +1148,12 @@ form{
 }
 }
 
-
-@media screen and (max-width: 1000px) {   
-    .Works{
-        .links{
-            .links_container{
-                .oneLink{
-                    .images{
-                        img{
-                            width: 32% !important;
-                            min-height: 20vh !important;
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-
-@media screen and (max-width: 850px) {   
-    .Works{
-        .links{
-            .links_container{
-                .oneLink{
-                    .images{
-                        img{
-                            width: 32% !important;
-                            min-height: 17vh !important;
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-
 @media screen and (max-width: 500px) {   
-    .oneLink{
-        h4,.Link,p{
-            font-size: 11px !important;
-            span{
-                font-size: 10px !important;
-            }
-        }
-        .images{
-            img{
-                width: 47% !important;
-                min-height: 15vh !important;
-            }
-        }
-    }
-}
-@media screen and (max-width: 400px) {   
     .Works{
         .links{
             .links_container{
                 .oneLink{
-                    .images{
-                        img{
-                            min-height: 10px !important;
-                        }
-                    }
+                    width: 100% !important;
                 }
             }
         }

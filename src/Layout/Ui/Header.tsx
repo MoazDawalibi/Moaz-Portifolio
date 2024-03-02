@@ -14,7 +14,8 @@ const Header = () => {
     return (
       <header className='Header'>
         <Link to='/#Home'>
-          <div className='Logo' role='img' aria-label='Logo' />
+          <img className='Logo'  src='MoazLogo.svg' />
+          <img className='LogoBlack'  src='MoazLogoBlack.svg' />
         </Link>
         <nav className='Nav'>
            <NavigationLinks className="Links" />

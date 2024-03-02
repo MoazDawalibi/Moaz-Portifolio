@@ -9,6 +9,9 @@ const Questions: React.FC = () => {
   const { t } = useTranslation();
   const contentArray: any = t('questions.projects.content', { returnObjects: true });
 
+  const handleDownload = () => {
+    window.location.href = '../MoazDawalibiCV.pdf';
+  };
   const items: CollapseProps['items'] = [
     {
       key: '1',
@@ -49,6 +52,9 @@ const Questions: React.FC = () => {
           {contentArray?.map((line:any, index:any) => (
           <p key={index}>{line}</p>
         ))}
+        <button className='cvButton' onClick={handleDownload}>
+          {t("Take a look at my CV")}
+        </button>
         </p>
       ),
     },
