@@ -19,7 +19,17 @@ html,body {
     color: var(--primary);
     font-weight: bold;
     padding: 5px;  
+}
 
+@media screen and (max-width: 700px) {
+    .cvButton{
+        width: 42%;
+        border: 1px solid #000;
+        border-radius: 10px;
+        color: var(--primary);
+        font-weight: bold;
+        padding: 5px;  
+    }
 }
 *{
     padding: 0;

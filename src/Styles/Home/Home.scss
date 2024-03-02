@@ -708,9 +708,9 @@ scroll-behavior: smooth;
                             }
                         }
                         .images{
+                            margin-inline: auto;
                             img{
-                                width: 95% !important;
-                                // min-height: 15vh !important;
+                                width: 96% !important;
                             }
                         }
                     }
@@ -1158,4 +1158,8 @@ form{
             }
         }
     }
+}
+
+.ant-drawer-header{
+    background: #000;
 }

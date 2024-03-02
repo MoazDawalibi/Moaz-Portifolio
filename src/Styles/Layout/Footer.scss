@@ -64,6 +64,9 @@ background: #212529;
             }
             .ContactFooter{
                 width: 30%;
+                h2,h3{
+                    font-size: 15px
+                }
                 >span{
                     display: flex; gap: 8px;
 
@@ -121,7 +124,7 @@ background: #212529;
                         display: flex; gap: 8px;
                         justify-content: center;
                         font-size: 1vw;
-    
+
                     }
     
                 }
@@ -131,7 +134,9 @@ background: #212529;
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-    
+                .footer_privacy{
+                    // display: flex; flex-direction: column;
+                 }
                 span{
                     margin-inline: 5px;
                     

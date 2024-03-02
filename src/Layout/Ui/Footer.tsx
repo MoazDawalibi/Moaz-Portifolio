@@ -24,7 +24,7 @@ const Footer: React.FC = () => {
         <div>
           {t('footer.rightsReserved')}
         </div>
-        <div>
+        <div className='footer_privacy'>
           <span>
             {t('footer.privacyPolicy')}
           </span>

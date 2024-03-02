@@ -22,7 +22,8 @@ const Header = () => {
           <div className='MenuNav '>
             <WithDrawer
 
-              title='Nav Links'
+              title='.'
+              className='darwer'
               button={<Button icon={<MenuOutlined />} type='primary' />}
             >
              <NavigationLinks className="DrawerLinks" />
