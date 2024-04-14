@@ -1,9 +1,10 @@
 import React from 'react';
 import Visibale from '../../HOC/withVisibale';
 import { useTranslation } from 'react-i18next';
-import { FaReact, FaGithub, FaFigma, FaSearchengin, FaSass } from 'react-icons/fa';
+import { FaReact, FaGithub, FaFigma, FaSearchengin, FaSass,FaLaravel, FaPhp } from 'react-icons/fa';
 import { SiTypescript, SiSolidity, SiDesignernews } from 'react-icons/si';
 import { GrShareRounded } from "react-icons/gr";
+import { AiOutlineConsoleSql } from "react-icons/ai";
 
 const PowerfulFeatures = () => {
   const { t } = useTranslation();
@@ -11,11 +12,17 @@ const PowerfulFeatures = () => {
   const skillsData = [
     { title: 'React', icon: <FaReact /> },
     { title: 'TypeScript', icon: <SiTypescript /> },
+    { title: 'Laravel', icon: <FaLaravel /> },
+    { title: 'php', icon: <FaPhp /> },
+    
+    { title: 'sql/mysql', icon: <AiOutlineConsoleSql /> },
     { title: 'allUIFrameworks', icon: <FaSass /> },
-    { title: 'solidPrinciples', icon: <SiSolidity /> },
-    { title: 'GitHub', icon: <FaGithub /> },
-    { title: 'SEO', icon: <FaSearchengin /> },
     { title: 'Figma', icon: <FaFigma /> },
+    { title: 'GitHub', icon: <FaGithub /> },
+    
+    { title: 'solidPrinciples', icon: <SiSolidity /> },
+    { title: 'SEO', icon: <FaSearchengin /> },
+    { title: 'oop', name: "OOP" },
     { title: 'Dp', name: "DP" },
   ];
 

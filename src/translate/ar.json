@@ -46,7 +46,11 @@
       "github": "جيت هاب",
       "seo": "تحسين محركات البحث",
       "figma": "فيغما",
-      "dp": "ديزاين باترن"
+      "dp": "ديزاين باترن",
+      "laravel":"Laravel",
+      "php":"Php",
+      "sql/mysql":"sql/mysql",
+      "oop":"Object Oriented programming"
     }
   },
   "aboutUs": {
@@ -63,6 +67,10 @@
     "metaCourseFrontEndDevelopment": {
       "title": "دورة Meta Front-End Development",
       "content": "شاركت في دورة Front-End Development المقدمة من Meta، حيث اكتسبت مهارات في إنشاء واجهات مستخدم استجابية وجذابة بصريًا باستخدام تقنيات تطوير الواجهة الأمامية الحديثة."
+    },
+    "metaCourseBackEndDevelopment": {
+      "title": "Meta Course Back-End Development",
+      "content": "Engaged in the Back-End Development course provided by Meta, acquiring skills in creating api for dashboard, websites and mobile applications using modern back-end technologies like service pattern."
     }
   },
   "lookingFor": {
@@ -82,7 +90,7 @@
     },
     "educationalBackground": {
       "label": "ما هو خلفيتك التعليمية؟",
-      "content": "التعليم: تكنولوجيا المعلومات (BAIT) في الجامعة الخاصة السورية، التدريب/الدورات: 1. Meta Advanced React، 2. Meta Front-End Developer Professional"
+      "content": "التعليم: تكنولوجيا المعلومات (BAIT) في الجامعة الخاصة السورية، التدريب/الدورات: 1. Meta Advanced React، 2. Meta Front-End Developer Professional 3. Meta Back-End Developer Professional"
     },
     "remoteWork": {
       "label": "هل أنت مستعد للعمل عن بُعد؟",

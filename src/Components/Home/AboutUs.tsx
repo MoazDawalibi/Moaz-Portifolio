@@ -18,6 +18,11 @@ const aboutUsData = [
     titleKey: 'aboutUs.metaCourseFrontEndDevelopment.title',
     contentKey: 'aboutUs.metaCourseFrontEndDevelopment.content',
   },
+  {
+    id: 4,
+    titleKey: 'aboutUs.metaCourseBackEndDevelopment.title',
+    contentKey: 'aboutUs.metaCourseBackEndDevelopment.content',
+  },
 ];
 
 const AboutUs = () => {

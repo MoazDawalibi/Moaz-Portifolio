@@ -17,7 +17,9 @@ const Questions: React.FC = () => {
       key: '1',
       children: (
         <p>
-          {t('questions.skill.content')}
+          | {t('questions.skill.content')}
+          <br/>
+          {t("| And i also have a good interface with making backend api for dashboard, website and mobile using service pattern or repository pattern.")}
         </p>
       ),
     },
