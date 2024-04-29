@@ -35,8 +35,11 @@ export const ProjectsArray:ProjectsArrayProps[] = [
     { name:"4Leaf_Shein", link: 'https://4-leaf-shein-landing-page.vercel.app/',linkName:'4leaf_shein.com', img: "/works/Fshein.png", projectType_id:2 },
 
     { name:"KarmaCoin", link: 'https://karmaantiquecoin.com', linkName:"KarmaCoin.com",img: "/works/Karma.png", projectType_id:3 },
+    { name:"KarmaCoin V2", link: 'https://https://new-karma-coin.vercel.app/', linkName:"KarmaCoinV2.com",img: "/works/Karmav2.png", projectType_id:3 },
+
     { name:"Qtrend", link: 'https://qtrendqa.com', img: "/works/Qtrend.png",linkName:"Qtrend.com", projectType_id:3 },
     { name:"KareemEcommerce", link: 'https://karimalden-ecommerce.vercel.app/',linkName:"Kareem.com", img: "/works/Karim.png", projectType_id:3 },
+    { name:"Nokhbeh Arabia", link: 'https://NokhbehArabia.qa', img: "/works/NArabia.png",linkName:"NArabia.com", projectType_id:3 },
 
     { name:"Elite Dashboard", img: "/works/NokhbehDash.png", projectType_id:4 },
     { name:"Rayan Dashboard", img: "/works/RayanDash.png", projectType_id:4 },

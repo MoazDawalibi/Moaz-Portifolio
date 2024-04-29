@@ -26,7 +26,7 @@ const Works = ({globalProjectTypeId,setGlobalProjectTypeId}:any) => {
 
   return (
     <div className='Works' id='works'>
-        <h1>{t("Works")}</h1>
+        <h1>{t("Some Works")}</h1>
         <div className='select_works'>
             <div className='select_project'>
                 <h3>{t("Select Project type")}:</h3>
@@ -38,20 +38,19 @@ const Works = ({globalProjectTypeId,setGlobalProjectTypeId}:any) => {
         <div className='links'>
                 <h3>{t("Projects")}</h3>
                 <div className='links_container'>
-                        {filteredLinks.map((project:any, index:number) => {
-                           return (
-                                <div className='oneLink' key={index}>
-                                    <h4>{t("Name")}: <span>{project?.name}</span></h4>
-                                    {project?.link && <Link className='Link' to={project?.link}>{t("Link")}: <span>{project?.linkName ? project?.linkName :project?.link}</span></Link> }
-                                    <p>{t("Project Images")}:</p>
-                                    <div className='images'>
-                                        <img style={{background:"black"}} src={project.img}/>
-                                        <img className='second' style={{background:"black"}} src={project.img}/>
-                                        <img className='third' style={{background:"black"}} src={project.img}/>
-                                    </div>
+                    {filteredLinks.map((project:any, index:number) => {
+                        return (
+                            <div className='oneLink' key={index}>
+                                <h4>{t("Name")}: <span>{project?.name}</span></h4>
+                                {project?.link && <Link className='Link' to={project?.link}>{t("Link")}: <span>{project?.linkName ? project?.linkName :project?.link}</span></Link> }
+                                <p>{t("Project Images")}:</p>
+                                <div className='images'>
+                                    <img style={{background:"black"}} src={project.img}/>
+                                    <img className='second' style={{background:"black"}} src={project.img}/>
+                                    <img className='third' style={{background:"black"}} src={project.img}/>
                                 </div>
-                        )
-                      }
+                            </div>
+                        )}
                     )}
                 </div>
             </div>

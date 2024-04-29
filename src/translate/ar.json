@@ -31,7 +31,7 @@
     "name": "كريم الدين",
     "role": "مطور واجهة أمامية و خلفية",
     "description": " و خلفية أعمل كمطور واجهة أمامية",
-    "experience": "بخبرة تزيد عن عام",
+    "experience": "بخبرة تزيد عن عامين ونصف ",
     "personalDescription": "متحفز ذاتيًا، طموح، وعامل بجد آمل في تحسين مهاراتي التواصل لتحقيق أهداف الشركة",
     "askedQuestions": "الأسئلة المتداولة",
     "contactMe": "تواصل معي"
@@ -50,7 +50,7 @@
       "laravel":"Laravel",
       "php":"Php",
       "sql/mysql":"sql/mysql",
-      "oop":"Object Oriented programming"
+      "oop":"البرمجة كائنية التوجه"
     }
   },
   "aboutUs": {
@@ -142,6 +142,7 @@
   "Select Project type":"اختر نوع المشروع",
   "Link":"الرابط",
   "Projects":"المشاريع",
-  "Take a look at my CV":"القي نظرة على ال CV"
+  "Take a look at my CV":"القي نظرة على ال CV",
+  "Some Works":"Some Works"
 
 }
