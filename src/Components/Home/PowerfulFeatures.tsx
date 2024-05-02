@@ -1,7 +1,7 @@
 import React from 'react';
 import Visibale from '../../HOC/withVisibale';
 import { useTranslation } from 'react-i18next';
-import { FaReact, FaGithub, FaFigma, FaSearchengin, FaSass,FaLaravel, FaPhp } from 'react-icons/fa';
+import { FaReact, FaGithub, FaFigma, FaSearchengin, FaSass,FaLaravel, FaPhp,FaVuejs  } from 'react-icons/fa';
 import { SiTypescript, SiSolidity, SiDesignernews } from 'react-icons/si';
 import { GrShareRounded } from "react-icons/gr";
 import { AiOutlineConsoleSql } from "react-icons/ai";
@@ -15,15 +15,16 @@ const PowerfulFeatures = () => {
     { title: 'Laravel', icon: <FaLaravel /> },
     { title: 'php', icon: <FaPhp /> },
     
+    { title: 'vue', icon: <FaVuejs /> },
     { title: 'sql/mysql', icon: <AiOutlineConsoleSql /> },
-    { title: 'allUIFrameworks', icon: <FaSass /> },
-    { title: 'Figma', icon: <FaFigma /> },
-    { title: 'GitHub', icon: <FaGithub /> },
-    
+    { title: 'Dp', name: "DP" },
     { title: 'solidPrinciples', icon: <SiSolidity /> },
+    // { title: 'GitHub', icon: <FaGithub /> },
+    
     { title: 'SEO', icon: <FaSearchengin /> },
     { title: 'oop', name: "OOP" },
-    { title: 'Dp', name: "DP" },
+    { title: 'allUIFrameworks', icon: <FaSass /> },
+    { title: 'Figma', icon: <FaFigma /> },
   ];
 
   return (

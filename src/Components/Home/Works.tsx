@@ -41,14 +41,14 @@ const Works = ({globalProjectTypeId,setGlobalProjectTypeId}:any) => {
                     {filteredLinks.map((project:any, index:number) => {
                         return (
                             <div className='oneLink' key={index}>
-                                <h4>{t("Name")}: <span>{project?.name}</span></h4>
-                                {project?.link && <Link className='Link' to={project?.link}>{t("Link")}: <span>{project?.linkName ? project?.linkName :project?.link}</span></Link> }
                                 <p>{t("Project Images")}:</p>
                                 <div className='images'>
                                     <img style={{background:"black"}} src={project.img}/>
                                     <img className='second' style={{background:"black"}} src={project.img}/>
                                     <img className='third' style={{background:"black"}} src={project.img}/>
                                 </div>
+                                <h4>{t("Name")}: <span>{project?.name}</span></h4>
+                                {project?.link && <Link className='Link' to={project?.link}>{t("Link")}: <span>{project?.linkName ? project?.linkName :project?.link}</span></Link> }
                             </div>
                         )}
                     )}

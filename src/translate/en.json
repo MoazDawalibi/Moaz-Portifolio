@@ -42,6 +42,7 @@
 "powerfulFeatures": {
     "title": "POWERFUL FEATURES",
     "skills": {
+    "vue":"Vue",
       "react": "React",
       "typescript": "TypeScript",
       "alluiframeworks": "All UI Frameworks",
@@ -61,7 +62,7 @@
     "educationDescription": " ",
     "syrianVirtualUniversity": {
       "title": "Syrian Private University (2022- present)",
-      "content": "Embarked on the journey of studying Information Technology (BAIT) at the Syrian Private University. The first year curriculum provided a foundational understanding of various aspects of IT."
+      "content": "Embarked on the journey of studying Information Technology (IT) at the Syrian Private University. The first year curriculum provided a foundational understanding of various aspects of IT."
     },
     "metaCourseAdvancedReact": {
       "title": "Meta Course Advanced React",
@@ -93,7 +94,7 @@
     },
     "educationalBackground": {
       "label": "What is your educational background?",
-      "content": "Education: Information Technology (BAIT) at Syrian Private University, Training / Courses: 1.Meta Advanced React, 2. Meta Front-End Developer Professional 3. Meta Back-End Developer Professional"
+      "content": "Education: Information Technology (IT) at Syrian Private University, Training / Courses: 1.Meta Advanced React, 2. Meta Front-End Developer Professional 3. Meta Back-End Developer Professional"
     },
     "remoteWork": {
       "label": "Are you open to remote work",

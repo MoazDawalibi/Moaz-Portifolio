@@ -39,6 +39,7 @@
   "powerfulFeatures": {
     "title": "ميزات قوية",
     "skills": {
+      "vue":"Vue",
       "react": "رياكت",
       "typescript": "تايب سكربت",
       "alluiframeworks": "جميع أطُقِ نظام الواجهة",
@@ -58,7 +59,7 @@
     "educationDescription": "",
     "syrianVirtualUniversity": {
       "title": "الجامعة الخاصة السورية (2022- present)",
-      "content": "بدأت رحلة دراستي في تكنولوجيا المعلومات (BAIT) في الجامعة الخاصة السورية. قدم المنهج للعام الأول فهمًا أساسيًا لجوانب مختلفة من تكنولوجيا المعلومات."
+      "content": "بدأت رحلة دراستي في تكنولوجيا المعلومات (IT) في الجامعة الخاصة السورية. قدم المنهج للعام الأول فهمًا أساسيًا لجوانب مختلفة من تكنولوجيا المعلومات."
     },
     "metaCourseAdvancedReact": {
       "title": "دورة Meta Advanced React",
@@ -90,7 +91,7 @@
     },
     "educationalBackground": {
       "label": "ما هو خلفيتك التعليمية؟",
-      "content": "التعليم: تكنولوجيا المعلومات (BAIT) في الجامعة الخاصة السورية، التدريب/الدورات: 1. Meta Advanced React، 2. Meta Front-End Developer Professional 3. Meta Back-End Developer Professional"
+      "content": "التعليم: تكنولوجيا المعلومات (IT) في الجامعة الخاصة السورية، التدريب/الدورات: 1. Meta Advanced React، 2. Meta Front-End Developer Professional 3. Meta Back-End Developer Professional"
     },
     "remoteWork": {
       "label": "هل أنت مستعد للعمل عن بُعد؟",
