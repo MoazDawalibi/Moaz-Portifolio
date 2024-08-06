@@ -62,6 +62,7 @@ const Questions: React.FC = () => {
     },
     // ... other items
   ];
+  
   const getHeader = (key: string) => {
     switch (key) {
       case '1':

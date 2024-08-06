@@ -48,7 +48,7 @@ const Works = ({globalProjectTypeId,setGlobalProjectTypeId}:any) => {
                                     <img className='third' style={{background:"black"}} src={project.img}/>
                                 </div>
                                 <h4>{t("Name")}: <span>{project?.name}</span></h4>
-                                {project?.link && <Link className='Link' to={project?.link}>{t("Link")}: <span>{project?.linkName ? project?.linkName :project?.link}</span></Link> }
+                                {/* {project?.link && <Link className='Link' to={project?.link}>{t("Link")}: <span>{project?.linkName ? project?.linkName :project?.link}</span></Link> } */}
                             </div>
                         )}
                     )}

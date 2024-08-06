@@ -13,7 +13,7 @@ const Contact: React.FC = () => {
     e.preventDefault();
 
     if (form.current) {
-      emailjs.sendForm('service_chmcscc', 'template_t5rgrcx', form.current, '29G9zbZsqD6c-xDsz')
+      emailjs.sendForm('service_144vqqk', 'template_tx2teda', form.current , 'q_slYkqf-pn2JOc_F')
         .then((result) => {
           console.log(result.text);
           form.current.reset();
