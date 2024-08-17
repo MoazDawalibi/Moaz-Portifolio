@@ -5,6 +5,7 @@ import { FaReact, FaGithub, FaFigma, FaSearchengin, FaSass,FaLaravel, FaPhp,FaVu
 import { SiTypescript, SiSolidity, SiDesignernews } from 'react-icons/si';
 import { GrShareRounded } from "react-icons/gr";
 import { AiOutlineConsoleSql } from "react-icons/ai";
+import { SiNextdotjs } from "react-icons/si";
 
 const PowerfulFeatures = () => {
   const { t } = useTranslation();
@@ -13,7 +14,7 @@ const PowerfulFeatures = () => {
     { title: 'React', icon: <FaReact /> },
     { title: 'TypeScript', icon: <SiTypescript /> },
     { title: 'Laravel', icon: <FaLaravel /> },
-    { title: 'php', icon: <FaPhp /> },
+    { title: 'next', icon: <SiNextdotjs /> },
     
     { title: 'vue', icon: <FaVuejs /> },
     { title: 'sql/mysql', icon: <AiOutlineConsoleSql /> },

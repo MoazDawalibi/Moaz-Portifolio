@@ -42,7 +42,7 @@
 "powerfulFeatures": {
     "title": "POWERFUL FEATURES",
     "skills": {
-    "vue":"Vue",
+      "vue":"Vue",
       "react": "React",
       "typescript": "TypeScript",
       "alluiframeworks": "All UI Frameworks",
@@ -53,6 +53,7 @@
       "dp": "Design Pattern",
       "laravel":"Laravel",
       "php":"Php",
+      "next":"Next",
       "sql/mysql":"sql/mysql",
       "oop":"Object Oriented programming"
     }
