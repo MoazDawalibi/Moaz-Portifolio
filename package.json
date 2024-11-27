@@ -15,7 +15,6 @@
     "@types/react": "^18.2.33",
     "@types/react-dom": "^18.2.14",
     "@types/react-helmet": "^6.1.11",
-    "@vitejs/plugin-react": "^4.3.4",
     "@vitejs/plugin-react-swc": "^3.7.2",
     "@wojtekmaj/react-daterange-picker": "^5.4.4",
     "antd": "^5.11.1",
@@ -43,6 +42,7 @@
     "react-query": "^3.39.3",
     "react-redux": "^9.0.4",
     "react-router-dom": "^6.18.0",
+    "react-scripts": "^5.0.1",
     "react-scroll": "^1.9.0",
     "react-select": "^5.7.7",
     "react-tabs": "^6.0.2",
@@ -52,7 +52,6 @@
     "sass": "^1.69.5",
     "styled-components": "5.3.3",
     "typescript": "^4.9.5",
-    "vite": "^6.0.1",
     "vite-plugin-svgr": "^4.3.0",
     "vite-tsconfig-paths": "^5.1.3",
     "web-vitals": "^2.1.4",
@@ -60,17 +59,10 @@
     "zustand": "^4.4.5"
   },
   "scripts": {
-    "start": "vite --port=3000",
-    "build": "vite build",
-    "test": "vite jest",
-    "eject": "react-scripts eject",
-    "g:api": "node src/Extensions/FileGenerator/generateApi.js",
-    "g:column": "node src/Extensions/FileGenerator/generateColumn.js",
-    "g:formutil": "node src/Extensions/FileGenerator/generateformUtils.js",
-    "g:page": "node src/Extensions/FileGenerator/generatePage.js",
-    "g:dashboard": "node src/Extensions/FileGenerator/generateDashboard.js ",
-    "g:modal:add": "node src/Extensions/FileGenerator/generateEditModal.js ",
-    "g:model:edit": "node src/Extensions/FileGenerator/generateEditModal.js "
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
