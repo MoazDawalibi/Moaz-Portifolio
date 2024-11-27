@@ -87,3 +87,35 @@ svg {
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dark{
+    .ant-collapse .ant-collapse-content>.ant-collapse-content-box,.ant-select-single.ant-select-show-arrow .ant-select-selection-item,.ant-select-single.ant-select-show-arrow .ant-select-selection-placeholder{
+        background: #474747;
+        color: rgb(209, 208, 208);
+    }
+    .ant-collapse>.ant-collapse-item >.ant-collapse-header .ant-collapse-expand-icon{
+        color: var(--text);
+    }
+    .form-control, input,.ant-select-outlined:not(.ant-select-customize-input) .ant-select-selector{
+        background: #474747;
+        opacity: 1 !important;
+    }
+    .form-control::placeholder{
+        color: rgb(209, 208, 208) !important;
+    }
+    .ant-select-single .ant-select-selector{
+        color: rgb(209, 208, 208) !important;
+    }
+}

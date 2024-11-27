@@ -43,7 +43,6 @@ const LoginForm = () => {
               type='text'
               id='username'
               name='username'
-              
               className='form-control form-control-lg'
             />
           </div>

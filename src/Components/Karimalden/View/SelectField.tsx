@@ -25,6 +25,7 @@ const SelectField = ({ name, label, placeholder, isDisabled,option,isMulti,onCha
             options={option}
             defaultValue={formik.values[name]}
             allowClear
+            className='select_field'
             {...(isMulti && { mode: "multiple" })}
             onChange={onChange || SelecthandleChange}
 
