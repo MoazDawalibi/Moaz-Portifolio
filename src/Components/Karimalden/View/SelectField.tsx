@@ -28,7 +28,7 @@ const SelectField = ({ name, label, placeholder, isDisabled,option,isMulti,onCha
             className='select_field'
             {...(isMulti && { mode: "multiple" })}
             onChange={onChange || SelecthandleChange}
-
+            
           />
         </Form.Item>
       </div>
@@ -36,3 +36,7 @@ const SelectField = ({ name, label, placeholder, isDisabled,option,isMulti,onCha
 }
 
 export default SelectField
+
+
+// ant-select ant-select-outlined ant-select-in-form-item ant-select-has-feedback select_field css-dev-only-do-not-override-1k979oh ant-select-single ant-select-allow-clear ant-select-show-arrow ant-select-open
+// 
