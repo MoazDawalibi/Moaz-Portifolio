@@ -11,7 +11,7 @@ interface SelectedOptionsProps {
 //     projectType_id:number
 // }
 
-interface ProjectsArrayProps {
+export interface ProjectsArrayProps {
     title:string;
     description:string;
     feature1:string;
