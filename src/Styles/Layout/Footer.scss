@@ -52,19 +52,23 @@ background: #212529;
                 width: 50%;
                 &:nth-child(1){
                     margin-right: 30px;
+                    width: 40%;
                 }
                 h1{
-                    font-size: 2vw;
+                    font-size: 2.5vw;
                 }
                 h2,h3{
-                    font-size: 1.3vw;
+                    font-size: 1.1vw;
+                }
+                p{
+                    font-size: 1vw;
                 }
               
             }
             .ContactFooter{
                 width: 30%;
                 h2,h3{
-                    font-size: 15px
+                    // font-size: 2px
                 }
                 >span{
                     display: flex; gap: 8px;
@@ -102,17 +106,25 @@ background: #212529;
                 justify-content: center;
                 align-items: center;
                 font-size: 2vw;
+
                 >div{
                     display: flex;
                     flex-direction: column;
                     width: 70%;
                     text-align: center;
                     &:nth-child(1){
-                        margin-right: 30px;
+                        width: 90%;
+                        margin-right: 0px;
                     }
                     h1{
                         font-size: 5vw;
                         margin-bottom: 20px;
+                    }
+                    p{
+                        font-size: 16px;
+                    }
+                    h2,h3{
+                        font-size: 16px;
                     }
                 
                   
@@ -125,16 +137,16 @@ background: #212529;
                         font-size: 1vw;
 
                     }
-    
+
                 }
-                
+
             }
             >span{
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
+                display: flex; flex-direction: column;
                 .footer_privacy{
-                    // display: flex; flex-direction: column;
                  }
                 span{
                     margin-inline: 5px;

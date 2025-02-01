@@ -2,6 +2,7 @@ import React from 'react'
 import { useTranslation } from 'react-i18next';
 import { GoDotFill } from "react-icons/go";
 import { Link } from 'react-router-dom';
+import ColumnsImage from '../Ui/ColumnsImage';
 
 interface WorkCard {
     title:string;
@@ -47,7 +48,8 @@ const WorkCard = ({
               </div>
              }
             <div>
-              <img src={img} alt={title} />
+              <ColumnsImage src={img}/>
+              {/* <img src={img} alt={title} /> */}
             </div>
           </div>
         </div>

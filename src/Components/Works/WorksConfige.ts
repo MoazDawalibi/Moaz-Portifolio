@@ -175,17 +175,17 @@ export const ProjectsArray:ProjectsArrayProps[] = [
         img: "/works/recov2.png",
         projectType_id: 2,
         link: "https://reco-website.vercel.app/"
-      },      
-      {
-        title: "KarmaCoin",
-        description: "Cryptocurrency platform for coin transactions.",
-        feature1: "Real-time market rates",
-        feature2: "Secure wallet integration",
-        feature3: "Transaction history tracking",
-        img: "/works/Karma.png",
-        projectType_id: 3,
-        // link:"https://moaz.vercel.app/"
       },
+      {
+        title: "KarmaCoin V2",
+        description: "Updated platform for advanced crypto trading.",
+        feature1: "Improved trading algorithms",
+        feature2: "New dashboard design",
+        feature3: "Support for multiple cryptocurrencies",
+        img: "/works/Karmav2.png",
+        projectType_id: 3,
+        link:"https://new-karma-coin.vercel.app/"
+      },   
       {
         title: "SDNone",
         description: "Portfolio website for showcasing professional projects.",
@@ -215,14 +215,14 @@ export const ProjectsArray:ProjectsArrayProps[] = [
         img: "/works/Optimum.png",
         projectType_id: 2,
         // link:"https://moaz.vercel.app/"
-      },
+      },   
       {
-        title: "KarmaCoin V2",
-        description: "Updated platform for advanced crypto trading.",
-        feature1: "Improved trading algorithms",
-        feature2: "New dashboard design",
-        feature3: "Support for multiple cryptocurrencies",
-        img: "/works/Karmav2.png",
+        title: "KarmaCoin",
+        description: "Cryptocurrency platform for coin transactions.",
+        feature1: "Real-time market rates",
+        feature2: "Secure wallet integration",
+        feature3: "Transaction history tracking",
+        img: "/works/Karma.png",
         projectType_id: 3,
         // link:"https://moaz.vercel.app/"
       },
@@ -276,6 +276,15 @@ export const ProjectsArray:ProjectsArrayProps[] = [
         projectType_id: 4,
         // link:"https://moaz.vercel.app/"
       },
+      {
+        title: "Zaker Dashboard",
+        description: "Admin dashboard for managing study content and tracking user progress.",
+        feature1: "Content management for study materials",
+        feature2: "User performance analytics and insights",
+        feature3: "Integration with AI-driven study recommendations",
+        img: "/works/zaker_dashboard.png",
+        projectType_id: 4,
+      }, 
       {
         title: "Elite Dashboard",
         description: "Dashboard for managing auction events.",
