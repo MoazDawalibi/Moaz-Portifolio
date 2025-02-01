@@ -140,6 +140,8 @@ const Works = ({ globalProjectTypeId, setGlobalProjectTypeId }: any) => {
                             feature2={project.feature2}
                             feature3={project.feature3}
                             projectType_id={project.projectType_id}
+                            link={project.link}
+                            linkName={project.linkName}
                         />
                     ))}
                 </div>

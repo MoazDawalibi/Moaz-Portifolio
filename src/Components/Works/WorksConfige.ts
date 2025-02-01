@@ -19,6 +19,8 @@ export interface ProjectsArrayProps {
     feature3:string;
     projectType_id:any;
     img:any;
+    link?:string;
+    linkName?:string;
 }
 export const SelectedOptionsArray:SelectedOptionsProps[] = [
     {Project_type:"All",id:1},
@@ -82,6 +84,7 @@ export const ProjectsArray:ProjectsArrayProps[] = [
         feature3: "Customizable alerts and notifications",
         img: "/works/Qtrend.png",
         projectType_id: 2,
+        link:"https://qtrend.vercel.app/"
       },
       {
         title: "Misbar",
@@ -91,6 +94,7 @@ export const ProjectsArray:ProjectsArrayProps[] = [
         feature3: "Integrated social media links",
         img: "/works/Misbar.png",
         projectType_id: 2,
+        link:"https://misbar-landingpage.vercel.app/"
       },
       {
         title: "Bright Dent",
@@ -100,16 +104,38 @@ export const ProjectsArray:ProjectsArrayProps[] = [
         feature3: "Interactive location map",
         img: "/works/Bright.png",
         projectType_id: 2,
+        link:"https://bright-dent-website.vercel.app/"
       },
       {
-        title: "Elite Auction",
-        description: "An auction platform for premium items.",
-        feature1: "Real-time bidding system",
+        title: "Try Talabee",
+        description: "An e-commerce platform for ordering food online from a restaurant.",
+        feature1: "Seamless online food ordering",
         feature2: "Secure payment integration",
-        feature3: "User management and analytics",
-        img: "/works/Nokhbeh.png",
+        feature3: "Real-time order tracking",
+        img: "/works/talabee.png",
+        projectType_id: 3,
+        link: "https://talabee.vercel.app/"
+      }, 
+      {
+        title: "AhlDubai",
+        description: "A professional medical landing page providing healthcare services and patient care solutions.",
+        feature1: "Detailed healthcare service descriptions",
+        feature2: "Informative blog and health tips",
+        feature3: "Contact and location details for easy access",
+        img: "/works/aheldubai.png",
         projectType_id: 2,
-      },
+        link: "https://medical-landing-page-iota.vercel.app/"
+      },      
+      {
+        title: "Reco",
+        description: "A Gloabal organization dedicated to raising awareness and reducing environmental pollution.",
+        feature1: "Informative content on environmental impact",
+        feature2: "Engaging visuals and eco-friendly tips",
+        feature3: "Call-to-action for community participation",
+        img: "/works/reco.png",
+        projectType_id: 2,
+        link: "https://recoproject.org/"
+      },           
       {
         title: "Etaxi",
         description: "Landing page for a taxi service provider.",
@@ -118,15 +144,47 @@ export const ProjectsArray:ProjectsArrayProps[] = [
         feature3: "Promotional offers display",
         img: "/works/Etaxi.png",
         projectType_id: 2,
+        link:"https://taxi-app-landing-page.vercel.app/"
       },
       {
-        title: "Optimum",
-        description: "Corporate website for an industrial group.",
-        feature1: "Comprehensive service showcase",
-        feature2: "Corporate blog and updates",
-        feature3: "Team and career sections",
-        img: "/works/Optimum.png",
+        title: "Zaker",
+        description: 'AI-powered study companion for Baccalaureate prep.',
+        feature1: "AI-driven study recommendations",
+        feature2: "Interactive quizzes and progress tracking",
+        feature3: "Comprehensive subject resources and summaries",
+        img: "/works/zaker.png",
         projectType_id: 2,
+        link: "https://zaker.vercel.app/"
+      },      
+      {
+        title: "4Leaf",
+        description: "Landing page for a fashion brand collaboration.",
+        feature1: "Showcasing brand collections",
+        feature2: "Embedded promotional videos",
+        feature3: "Integrated feedback form",
+        img: "/works/Fshein.png",
+        projectType_id: 2,
+        link:"https://4-leaf.vercel.app/"
+      },
+      {
+        title: "Reco V2",
+        description: "Interactive page promoting eco-friendly practices.",
+        feature1: "Educational resources on environmental sustainability",
+        feature2: "Interactive tools for carbon footprint reduction",
+        feature3: "Community-driven initiatives for a greener future",
+        img: "/works/recov2.png",
+        projectType_id: 2,
+        link: "https://reco-website.vercel.app/"
+      },      
+      {
+        title: "KarmaCoin",
+        description: "Cryptocurrency platform for coin transactions.",
+        feature1: "Real-time market rates",
+        feature2: "Secure wallet integration",
+        feature3: "Transaction history tracking",
+        img: "/works/Karma.png",
+        projectType_id: 3,
+        // link:"https://moaz.vercel.app/"
       },
       {
         title: "SDNone",
@@ -136,24 +194,27 @@ export const ProjectsArray:ProjectsArrayProps[] = [
         feature3: "Contact form integration",
         img: "/works/Sdnone.png",
         projectType_id: 2,
+        link:"https://sdnone.vercel.app/"
       },
       {
-        title: "4Leaf_Shein",
-        description: "Landing page for a fashion brand collaboration.",
-        feature1: "Showcasing brand collections",
-        feature2: "Embedded promotional videos",
-        feature3: "Integrated feedback form",
-        img: "/works/Fshein.png",
+        title: "Elite Auction",
+        description: "An auction platform for premium items.",
+        feature1: "Real-time bidding system",
+        feature2: "Secure payment integration",
+        feature3: "User management and analytics",
+        img: "/works/Nokhbeh.png",
         projectType_id: 2,
+        // link:"https://moaz.vercel.app/"
       },
       {
-        title: "KarmaCoin",
-        description: "Cryptocurrency platform for coin transactions.",
-        feature1: "Real-time market rates",
-        feature2: "Secure wallet integration",
-        feature3: "Transaction history tracking",
-        img: "/works/Karma.png",
-        projectType_id: 3,
+        title: "Optimum",
+        description: "Corporate website for an industrial group.",
+        feature1: "Comprehensive service showcase",
+        feature2: "Corporate blog and updates",
+        feature3: "Team and career sections",
+        img: "/works/Optimum.png",
+        projectType_id: 2,
+        // link:"https://moaz.vercel.app/"
       },
       {
         title: "KarmaCoin V2",
@@ -163,6 +224,7 @@ export const ProjectsArray:ProjectsArrayProps[] = [
         feature3: "Support for multiple cryptocurrencies",
         img: "/works/Karmav2.png",
         projectType_id: 3,
+        // link:"https://moaz.vercel.app/"
       },
       {
         title: "KareemEcommerce",
@@ -172,15 +234,7 @@ export const ProjectsArray:ProjectsArrayProps[] = [
         feature3: "Order tracking and notifications",
         img: "/works/Karim.png",
         projectType_id: 3,
-      },
-      {
-        title: "Nokhbeh Arabia",
-        description: "A regional business website for networking.",
-        feature1: "Dynamic user profiles",
-        feature2: "Discussion forums",
-        feature3: "Event calendar and updates",
-        img: "/works/NArabia.png",
-        projectType_id: 3,
+        link:"https://ecommerce-structure-six.vercel.app/"
       },
       {
         title: "Dm",
@@ -190,6 +244,7 @@ export const ProjectsArray:ProjectsArrayProps[] = [
         feature3: "Document sharing and version control",
         img: "/works/Dm.png",
         projectType_id: 3,
+        link:"https://dm-f9z6.vercel.app/"
       },
       {
         title: "Mns",
@@ -199,6 +254,17 @@ export const ProjectsArray:ProjectsArrayProps[] = [
         feature3: "News and updates blog",
         img: "/works/Mns.png",
         projectType_id: 3,
+        link:"https://mns-ecommerce.vercel.app/"
+      },
+      {
+        title: "Nokhbeh Arabia",
+        description: "A regional business website for networking.",
+        feature1: "Dynamic user profiles",
+        feature2: "Discussion forums",
+        feature3: "Event calendar and updates",
+        img: "/works/NArabia.png",
+        projectType_id: 3,
+        // link:"https://moaz.vercel.app/"
       },
       {
         title: "School System Dashboard",
@@ -208,6 +274,7 @@ export const ProjectsArray:ProjectsArrayProps[] = [
         feature3: "Admin and teacher portals",
         img: "/works/School.png",
         projectType_id: 4,
+        // link:"https://moaz.vercel.app/"
       },
       {
         title: "Elite Dashboard",
@@ -217,6 +284,7 @@ export const ProjectsArray:ProjectsArrayProps[] = [
         feature3: "Secure data handling",
         img: "/works/NokhbehDash.png",
         projectType_id: 4,
+        // link:"https://moaz.vercel.app/"
       },
       {
         title: "Rayan Dashboard",
@@ -226,6 +294,7 @@ export const ProjectsArray:ProjectsArrayProps[] = [
         feature3: "Staff performance monitoring",
         img: "/works/RayanDash.png",
         projectType_id: 4,
+        // link:"https://moaz.vercel.app/"
       },
       {
         title: "Etaxi Dashboard",
@@ -235,6 +304,7 @@ export const ProjectsArray:ProjectsArrayProps[] = [
         feature3: "Complaint and feedback management",
         img: "/works/EtaxiDash.png",
         projectType_id: 4,
+        // link:"https://moaz.vercel.app/"
       },
       {
         title: "Qtrend Dashboard",
@@ -244,6 +314,7 @@ export const ProjectsArray:ProjectsArrayProps[] = [
         feature3: "User-defined alerts",
         img: "/works/QtrendDash.png",
         projectType_id: 4,
+        // link:"https://moaz.vercel.app/"
       },
       {
         title: "Dent Dashboard",
@@ -253,6 +324,7 @@ export const ProjectsArray:ProjectsArrayProps[] = [
         feature3: "Service scheduling",
         img: "/works/BrightDash.png",
         projectType_id: 4,
+        // link:"https://moaz.vercel.app/"
       },
       {
         title: "Karma Dashboard",
@@ -262,6 +334,7 @@ export const ProjectsArray:ProjectsArrayProps[] = [
         feature3: "Trading tools",
         img: "/works/KarmaDash.png",
         projectType_id: 4,
+        // link:"https://moaz.vercel.app/"
       },
       {
         title: "SDNone Dashboard",
@@ -271,5 +344,6 @@ export const ProjectsArray:ProjectsArrayProps[] = [
         feature3: "Data import/export features",
         img: "/works/SdnoneDash.png",
         projectType_id: 4,
+        // link:"https://moaz.vercel.app/"
       },
 ];

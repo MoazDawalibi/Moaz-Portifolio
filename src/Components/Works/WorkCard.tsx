@@ -1,15 +1,18 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next';
 import { GoDotFill } from "react-icons/go";
+import { Link } from 'react-router-dom';
 
 interface WorkCard {
     title:string;
     description:string;
-    feature1:string;
-    feature2:string;
-    feature3:string;
+    feature1:any;
+    feature2:any;
+    feature3:any;
     projectType_id?:any;
     img:any;
+    linkName?:any;
+    link?:any
 }
 
 const WorkCard = ({
@@ -19,7 +22,9 @@ const WorkCard = ({
     feature2,
     feature3,
     projectType_id,
-    img}:WorkCard) => {
+    img,
+    linkName,
+    link}:WorkCard) => {
       const {t} = useTranslation();
   return (
     <div key={projectType_id} className='new_work_card'>
@@ -33,7 +38,14 @@ const WorkCard = ({
               <span><GoDotFill/> <p>{t(feature2)}</p></span>
               <span><GoDotFill/> <p>{t(feature3)}</p></span>
             </div>
-
+            {link &&
+              <div>
+                <h4>{t("Link")} :</h4>
+                <p>
+                  <Link className='Link' to={link}>{t("View")}: {title}</Link>
+                </p>
+              </div>
+             }
             <div>
               <img src={img} alt={title} />
             </div>
